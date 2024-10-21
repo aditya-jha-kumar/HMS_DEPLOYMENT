@@ -209,7 +209,7 @@ export const logoutPatient = catchAsyncErrors(async (req, res, next) => {
       httpOnly: true,
       expires: new Date(Date.now()),
       secure: true,
-      sameSite: "None",
+      S
     })
     .json({
       success: true,
